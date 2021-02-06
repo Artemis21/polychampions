@@ -7,12 +7,14 @@
   <link rel="stylesheet" href="/css/root.css">
   <script src="https://kit.fontawesome.com/84d9aa7337.js" crossorigin="anonymous"></script>
   <meta name="og:type" content="article"/>
-  <meta name="og:url" content="https://beta.polytopia.win/stats/statsdemo"/>
+  <meta name="og:url" content="https://beta.polytopia.win/404"/>
+  <link rel="icon" href="/img/logo.png">
   
-  <title>Stats</title>
-  <script src="/js/templates.js"></script>
-  <script src="https://mozilla.github.io/nunjucks/files/nunjucks-slim.min.js"></script>
-  <link rel="stylesheet" href="/css/statsTable.css"/>
+  <title>404 - PolyChampions</title>
+  <meta name="description" content="That link doesn't look right."/>
+  <meta name="og:title" content="Error: 404 - PolyChampions"/>
+  <meta name="og:image" content="https://beta.polytopia.win/img/logo.png"/>
+  <meta name="og:description" content="That link doesn't look right."/>
 
 </head>
 <body>
@@ -23,30 +25,24 @@
     </a>
     <a href="/teams" class="navbar__link">Teams</a>
     <a href="#" class="navbar__link">Guides</a>
-    <a href="#" class="navbar__link">About</a>
+    <a href="/about" class="navbar__link">About</a>
   </nav>
 
-  <main class="main">
-    
-  <section><p>statsdemo.html content ahehaith</p></section>
-<script type="module">
-  fetch('http://localhost:5000/')
-  .then(data => data.json())
-  .then(data => console.log(data))
-  .catch(err => console.log(err));
-</script>
-
-  <section>
-    <table id="statsTable">
-      <tr><td>Fetching data...</td></tr>
-    </table>
-  </section>
-  <script src="/js/statsTable.js"></script>
-
+  
+  <main class="main main--centered">
+    <section class="page_intro page_intro--centered">
+      <i class="fas fa-search page_intro__icon"></i>
+      <h1 class="page_intro__header">404 Error</h1>
+      <p class="page_intro__description">
+        Couldn't find that page.
+      </p>
+    </section>
   </main>
+
 
   <footer class="footer">
     PolyChampions website. Created by Luna and Artemis. Stats brought to you with help from Legorooj, Nelluk, and the PolyChampions stats team. Graphics by Newt.<br><br>
+    This site is still in beta, so expect to see links that don't lead anywhere and placeholder content.<br><br>
     <a href="https://discord.gg/2VZnPJJBzH">Join now on Discord!</a>
   </footer>
 
